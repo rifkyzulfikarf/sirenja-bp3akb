@@ -1,7 +1,7 @@
 <!--footer start-->
 <footer class="site-footer">
 	<div class="text-center">
-		2015 &copy; Vibisoft by Rifky Zulfikar.
+		2016 &copy; FuzzyTech IT Solution by Rifky Zulfikar.
 		<a href="#" class="go-top">
 			<i class="fa fa-angle-up"></i>
 		</a>

@@ -1,5 +1,5 @@
 <!--header start-->
-<header class="header white-bg-transparent">
+<header class="header white-bg">
 	<div class="sidebar-toggle-box">
 		<div data-original-title="" data-placement="right" class="fa fa-bars tooltips"></div>
 	</div>
