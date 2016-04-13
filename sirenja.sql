@@ -25,11 +25,11 @@ CREATE TABLE `akses` (
   `id_pemakai` int(11) DEFAULT NULL,
   `id_menu` tinyint(4) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=26 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=28 DEFAULT CHARSET=latin1;
 
 /*Data for the table `akses` */
 
-insert  into `akses`(`id`,`id_pemakai`,`id_menu`) values (1,1,1),(2,1,2),(3,1,3),(4,1,4),(5,1,5),(6,1,6),(7,1,7),(8,1,8),(9,1,9),(10,1,10),(11,1,11),(12,1,12),(13,1,13),(14,1,14),(15,1,15),(16,1,16),(17,1,17),(18,1,18),(19,1,19),(20,1,20),(21,1,21),(22,1,22),(23,1,23),(24,1,24),(25,1,25);
+insert  into `akses`(`id`,`id_pemakai`,`id_menu`) values (1,1,1),(2,1,2),(3,1,3),(4,1,4),(5,1,5),(6,1,6),(7,1,7),(8,1,8),(9,1,9),(10,1,10),(11,1,11),(12,1,12),(13,1,13),(14,1,14),(15,1,15),(16,1,16),(17,1,17),(18,1,18),(19,1,19),(20,1,20),(21,1,21),(22,1,22),(23,1,23),(24,1,24),(25,1,25),(26,1,26),(27,1,27);
 
 /*Table structure for table `akses_menu` */
 
@@ -44,11 +44,11 @@ CREATE TABLE `akses_menu` (
   `induk` tinyint(4) NOT NULL DEFAULT '0',
   `icon` varchar(50) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=26 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=28 DEFAULT CHARSET=latin1;
 
 /*Data for the table `akses_menu` */
 
-insert  into `akses_menu`(`id`,`urutan`,`nama`,`url`,`level`,`induk`,`icon`) values (1,2,'Perencanaan','#','1',0,'fa fa-pencil-square-o'),(2,1,'Usulan Renja','./modules/view/perencanaan/usulan-renja.php','2',1,'-'),(3,2,'Rencana Program Kegiatan','./modules/view/perencanaan/rencana-program.php','2',1,'-'),(4,3,'Kinerja','#','1',0,'fa fa-trophy'),(5,1,'Realisasi Kegiatan','./modules/view/kinerja/realisasi-kegiatan.php','2',4,'-'),(6,2,'Realisasi Capaian Indikator','./modules/view/kinerja/realisasi-indikator.php','2',4,'-'),(7,4,'Laporan','#','1',0,'fa fa-book'),(8,1,'Usulan Renja','./modules/view/laporan/usulan-renja.php','2',7,'-'),(9,2,'Rencana Program Kegiatan','./modules/view/laporan/rencana-program','2',7,'-'),(10,3,'Capaian RPJMD','./modules/view/laporan/capaian-rpjmd.php','2',7,'-'),(11,4,'Capaian Renstra','./modules/view/laporan/capaian-renstra.php','2',7,'-'),(12,5,'Capaian Kegiatan','./modules/view/laporan/capaian-kegiatan.php','2',7,'-'),(13,6,'Capaian RKPD','./modules/view/laporan/capaian-rkpd.php','2',7,'-'),(14,7,'Capaian LKPJ','./modules/view/laporan/capaian-lkpj.php','2',7,'-'),(15,8,'Capaian Agenda 18','./modules/view/laporan/capaian-agenda-18.php','2',7,'-'),(16,9,'Evaluasi Hasil Renja SKPD','./modules/view/laporan/evaluasi-renja-skpd.php','2',7,'-'),(17,1,'Menu Admin','#','1',0,'fa fa-user'),(18,1,'Master Tahun','./modules/view/master-data/tahun.php','2',17,'-'),(19,2,'Master Urusan','./modules/view/master-data/urusan.php','2',17,'-'),(20,3,'Master Bidang','./modules/view/master-data/bidang.php','2',17,'-'),(21,4,'Master Prioritas Daerah','./modules/view/master-data/prioritas.php','2',17,'-'),(22,5,'Master Sasaran Daerah','./modules/view/master-data/sasaran.php','2',17,'-'),(23,6,'Master Program','./modules/view/master-data/program.php','2',17,'-'),(24,7,'Master Indikator Program','./modules/view/master-data/indikator.php','2',17,'-'),(25,8,'Master Kegiatan','./modules/view/master-data/kegiatan.php','2',17,'-');
+insert  into `akses_menu`(`id`,`urutan`,`nama`,`url`,`level`,`induk`,`icon`) values (1,2,'Perencanaan','#','1',0,'fa fa-pencil-square-o'),(2,1,'Usulan Renja','./modules/view/perencanaan/usulan-renja.php','2',1,'-'),(3,2,'Rencana Program Kegiatan','./modules/view/perencanaan/rencana-program.php','2',1,'-'),(4,3,'Kinerja','#','1',0,'fa fa-trophy'),(5,1,'Realisasi Kegiatan','./modules/view/kinerja/realisasi-kegiatan.php','2',4,'-'),(6,2,'Realisasi Capaian Indikator','./modules/view/kinerja/realisasi-indikator.php','2',4,'-'),(7,4,'Laporan','#','1',0,'fa fa-book'),(8,1,'Usulan Renja','./modules/view/laporan/usulan-renja.php','2',7,'-'),(9,2,'Rencana Program Kegiatan','./modules/view/laporan/rencana-program','2',7,'-'),(10,3,'Capaian RPJMD','./modules/view/laporan/capaian-rpjmd.php','2',7,'-'),(11,4,'Capaian Renstra','./modules/view/laporan/capaian-renstra.php','2',7,'-'),(12,5,'Capaian Kegiatan','./modules/view/laporan/capaian-kegiatan.php','2',7,'-'),(13,6,'Capaian RKPD','./modules/view/laporan/capaian-rkpd.php','2',7,'-'),(14,7,'Capaian LKPJ','./modules/view/laporan/capaian-lkpj.php','2',7,'-'),(15,8,'Capaian Agenda 18','./modules/view/laporan/capaian-agenda-18.php','2',7,'-'),(16,9,'Evaluasi Hasil Renja SKPD','./modules/view/laporan/evaluasi-renja-skpd.php','2',7,'-'),(17,1,'Menu Admin','#','1',0,'fa fa-user'),(18,1,'Master Tahun','./modules/view/master-data/tahun.php','2',17,'-'),(19,2,'Master Urusan','./modules/view/master-data/urusan.php','2',17,'-'),(20,3,'Master Bidang','./modules/view/master-data/bidang.php','2',17,'-'),(21,4,'Master Prioritas Daerah','./modules/view/master-data/prioritas.php','2',17,'-'),(22,5,'Master Sasaran Daerah','./modules/view/master-data/sasaran.php','2',17,'-'),(23,6,'Master Program','./modules/view/master-data/program.php','2',17,'-'),(24,7,'Master Indikator Program','./modules/view/master-data/indikator.php','2',17,'-'),(25,8,'Master Kegiatan','./modules/view/master-data/kegiatan.php','2',17,'-'),(26,9,'Master Target','./modules/view/master-data/target.php','2',17,'-'),(27,10,'Master Target Akhir','./modules/view/master-data/target-akhir.php','2',17,'-');
 
 /*Table structure for table `bidang` */
 
@@ -106,7 +106,7 @@ CREATE TABLE `log_login` (
 
 /*Data for the table `log_login` */
 
-insert  into `log_login`(`tgl`,`id_pemakai`) values ('2016-04-12 07:57:52',1),('2016-04-12 08:01:48',1),('2016-04-12 08:06:15',1),('2016-04-12 08:22:50',1),('2016-04-12 09:23:49',1),('2016-04-12 11:29:18',1),('2016-04-12 12:41:06',1),('2016-04-12 17:32:16',1),('2016-04-12 21:21:50',1);
+insert  into `log_login`(`tgl`,`id_pemakai`) values ('2016-04-12 07:57:52',1),('2016-04-12 08:01:48',1),('2016-04-12 08:06:15',1),('2016-04-12 08:22:50',1),('2016-04-12 09:23:49',1),('2016-04-12 11:29:18',1),('2016-04-12 12:41:06',1),('2016-04-12 17:32:16',1),('2016-04-12 21:21:50',1),('2016-04-13 10:09:48',1);
 
 /*Table structure for table `pemakai` */
 
@@ -156,6 +156,25 @@ CREATE TABLE `program` (
 
 insert  into `program`(`id`,`program`,`hapus`) values (1,'Tes','0');
 
+/*Table structure for table `realisasi_indikator` */
+
+DROP TABLE IF EXISTS `realisasi_indikator`;
+
+CREATE TABLE `realisasi_indikator` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `id_tahun` int(11) DEFAULT NULL,
+  `triwulan` int(11) DEFAULT NULL,
+  `id_indikator` int(11) DEFAULT NULL,
+  `id_target` int(11) DEFAULT NULL,
+  `id_target_akhir` int(11) DEFAULT NULL,
+  `realisasi_tahun_sebelumnya` text,
+  `realisasi_target` text,
+  `persentase_ketercapaian` text,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+/*Data for the table `realisasi_indikator` */
+
 /*Table structure for table `realisasi_program` */
 
 DROP TABLE IF EXISTS `realisasi_program`;
@@ -198,11 +217,9 @@ CREATE TABLE `rencana_program` (
   `belanja_modal` double DEFAULT NULL,
   `pagu_anggaran_th_berikutnya` double DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 /*Data for the table `rencana_program` */
-
-insert  into `rencana_program`(`id`,`id_tahun`,`id_urusan`,`id_bidang`,`id_prioritas`,`id_sasaran`,`id_program`,`id_indikator`,`id_kegiatan`,`tolok_ukur_keluaran`,`target_keluaran`,`tolok_ukur_hasil`,`target_hasil`,`lokasi`,`pagu_anggaran`,`belanja_pegawai`,`belanja_barang_jasa`,`belanja_modal`,`pagu_anggaran_th_berikutnya`) values (1,1,1,1,1,1,1,1,1,'tes','tes','tes','tes','tes',100000000,50000000,25000000,25000000,150000000);
 
 /*Table structure for table `sasaran` */
 
@@ -233,6 +250,36 @@ CREATE TABLE `tahun` (
 /*Data for the table `tahun` */
 
 insert  into `tahun`(`id`,`tahun`,`hapus`) values (1,'2016 - 2017','0'),(2,'2017 - 2018','0');
+
+/*Table structure for table `target` */
+
+DROP TABLE IF EXISTS `target`;
+
+CREATE TABLE `target` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `target` text,
+  `hapus` varchar(1) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=latin1;
+
+/*Data for the table `target` */
+
+insert  into `target`(`id`,`target`,`hapus`) values (1,'Tes','0');
+
+/*Table structure for table `target_akhir` */
+
+DROP TABLE IF EXISTS `target_akhir`;
+
+CREATE TABLE `target_akhir` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `target_akhir` text,
+  `hapus` varchar(1) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=latin1;
+
+/*Data for the table `target_akhir` */
+
+insert  into `target_akhir`(`id`,`target_akhir`,`hapus`) values (1,'Tes','0');
 
 /*Table structure for table `urusan` */
 
