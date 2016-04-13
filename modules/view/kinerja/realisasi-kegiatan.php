@@ -239,7 +239,7 @@
 									</div>
 								</div>
 								<div class="form-group">
-									<label for="txtTglRealisasi" class="col-lg-2 col-sm-2 control-label">Tanggal Realisasi</label>
+									<label for="txtTglRealisasi" class="col-lg-2 col-sm-2 control-label">Bulan Realisasi</label>
 									<div class="col-lg-10">
 										<input type="text" class="form-control" id="txtTglRealisasi" name="txtTglRealisasi">
 									</div>
